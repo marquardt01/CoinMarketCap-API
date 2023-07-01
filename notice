@@ -1,0 +1,7 @@
+In this script, the get_crypto_price function uses the CoinMarketCap API to retrieve the current price of a specified cryptocurrency in USD. You can pass the cryptocurrency symbol (e.g., "bitcoin", "ethereum", "dogecoin") to the get_crypto_price function, and it will return the current price as a float value.
+
+In the example usage, we call get_crypto_price for several cryptocurrencies (bitcoin, ethereum, dogecoin) and print their current prices.
+
+This script can be useful for crypto enthusiasts who want to quickly check the current prices of cryptocurrencies. You can modify it to use other cryptocurrency symbols or include additional functionality based on the CoinMarketCap API.
+
+Make sure you have the requests library installed by running the command pip install requests.
