@@ -1,4 +1,4 @@
-# CoinMarketCap-API
+# CoinMarketCap-API-Script
 This script uses the CoinMarketCap API to fetch the current prices of cryptocurrencies
 import requests
 
