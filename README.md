@@ -10,7 +10,7 @@ def get_crypto_price(crypto_symbol):
         return float(data[0]['price_usd'])
     return None
 
-# Example usage
+# Usage example
 crypto_symbols = ['bitcoin', 'ethereum', 'dogecoin']
 for symbol in crypto_symbols:
     price = get_crypto_price(symbol)
