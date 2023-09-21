@@ -1,6 +1,6 @@
 # CoinMarketCap-API-Script
 This script uses the CoinMarketCap API to fetch the current prices of cryptocurrencies
-import requests
+import requests 
 
 def get_crypto_price(crypto_symbol):
     url = f'https://api.coinmarketcap.com/v1/ticker/{crypto_symbol}/'
